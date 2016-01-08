@@ -1,8 +1,11 @@
 var TweetsList = React.createClass({
   render: function() {
+    let tweets = this.props.tweets.map(tweet => <Tweet key={tweet.id} {...tweet}/>);
     return(
       <div>
-        When I grow up, I want to be a list of tweets!
+        <ul className="collection">
+          {tweets}
+        </ul>
       </div>
     )
   }
