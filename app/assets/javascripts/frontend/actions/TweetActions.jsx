@@ -1,7 +1,10 @@
-//import API from '../API.jsx'
+import API from '../API'
 
-var TweetActions = {
-  getAllTweets: function() {
+export default {
+  getAllTweets() {
     API.getAllTweets();
+  },
+  sendTweet(body) {
+    API.createTweet(body);
   }
 }
