@@ -3,7 +3,7 @@ import TweetBox from './components/TweetBox.jsx';
 import TweetsList from './components/TweetsList.jsx';
 import TweetStore from './stores/TweetStore.jsx';
 
-import TweetActions from "./actions/TweetActions";
+import TweetActions from "./actions/TweetActions.jsx";
 TweetActions.getAllTweets();
 
 let getAppState = () => {
