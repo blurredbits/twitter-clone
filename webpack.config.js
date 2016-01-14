@@ -39,7 +39,7 @@ var plugins = [];
 
 if (env === 'build') {
   plugins.push(new UglifyJsPlugin({ minimize: true}));
-  outputFile = appName + 'min.js';
+  outputFile = appName + '.min.js';
 } else {
   outputFile = appName + '.js';
 }

@@ -1,4 +1,4 @@
-import API from '../API.jsx'
+import API from '../API.jsx';
 
 export default {
   getAllTweets() {

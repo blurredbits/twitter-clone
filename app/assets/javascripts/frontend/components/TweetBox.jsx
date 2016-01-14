@@ -1,4 +1,4 @@
-import TweetActions from "../actions/TweetActions.jsx"
+import TweetActions from "../actions/TweetActions.jsx";
 
 export default class TweetBox extends React.Component {
 

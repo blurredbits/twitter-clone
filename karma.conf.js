@@ -3,7 +3,7 @@ webpackConfig.devtool = 'inline-source-map';
 
 module.exports = function (config) {
   config.set({
-    browsers: [ 'PhantomJS' ],
+    browsers: [ 'PhantomJS', 'Chrome' ],
     singleRun: true,
     frameworks: [ 'mocha', 'chai', 'sinon', 'sinon-chai' ],
     files: [
@@ -11,6 +11,7 @@ module.exports = function (config) {
     ],
     plugins: [
       'karma-phantomjs-launcher',
+      'karma-chrome-launcher',
       'karma-chai',
       'karma-mocha',
       'karma-sourcemap-loader',

@@ -7,7 +7,7 @@
     "dev": "WEBPACK_ENV=dev ./node_modules/.bin/webpack --watch --inline",
     "build": "WEBPACK_ENV=build ./node_modules/.bin/webpack",
     "test": "karma start",
-    "test:ci": "watch 'npm test' src/"
+    "test:ci": "watch 'npm test' test/"
   },
   "repository": {
     "type": "git",

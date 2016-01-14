@@ -1,28 +1,20 @@
-== README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Setup instructions:
 
 
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+`bundle install`
+`rake db:create`
+`rake db:migrate`
+`npm install`
+
+To run a local rails server - it's just like normal:
+
+`rails s`
+
+To start up the webpack watching for the 'app/assets/javascripts/fronted', start:
+
+`npm run dev`
+
+To run the test, 2 options:
+
+`npm test` will run the suite as a one-off run.
+`npm run test:ci` will run the suite ala Guard, and continuously watch for changes to the spec file.

@@ -1,4 +1,4 @@
-import ServerActions from './actions/ServerActions.jsx'
+import ServerActions from './actions/ServerActions.jsx';
 
 export default {
   getAllTweets() {
