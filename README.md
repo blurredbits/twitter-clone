@@ -1,5 +1,4 @@
-Setup instructions:
-
+##Setup
 
 ```bundle install```
 
@@ -10,15 +9,15 @@ Setup instructions:
 ```npm install```
 
 
-To run a local rails server - it's just like normal:
+###To run a local rails server - it's just like normal:
 
 ```rails s```
 
-To start up the webpack watching for the 'app/assets/javascripts/fronted', start:
+###To start up the webpack watching for the 'app/assets/javascripts/fronted', start:
 
 ```npm run dev```
 
-To run the test, 2 options:
+###To run the test, 2 options:
 
 ```npm test``` will run the suite as a one-off run.
 
